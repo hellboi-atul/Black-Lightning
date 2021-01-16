@@ -910,7 +910,7 @@ async def vapor(vpr):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
-            f"**Hello , {DEFAULTUSER} Is Givin A Opportunity To Use Lighting [Lightningt](https://github.com/KeinShin/Black-Lightning) !\n Try Now😉"
+            f"**Hello , {DEFAULTUSER} Is Givin A Opportunity To Use Lighting [Lightningt](https://github.com/KeinShin/Black-Lightning) !**\n Try Now😉"
         )
 
 
